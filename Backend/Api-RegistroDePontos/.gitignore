@@ -1,0 +1,4 @@
+# Ignorar arquivos de configuração local
+appsettings.json
+obj/
+bin/
