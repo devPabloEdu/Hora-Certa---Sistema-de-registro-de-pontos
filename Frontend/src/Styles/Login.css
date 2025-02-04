@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+}
+body {
+    background-color: #bb5054;
+}
+.BoxLogin{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    margin: 100px;
+}
+.BoxLogin h2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    font-family: 'Nunito';
+}
+.BoxLogin p{
+    text-align: center;
+    color: whitesmoke;
+}
+.InputsBox input, button{
+    display: flex;
+    margin: 30px;
+    width: 50vh;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+button{
+    width: 20vh;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    background-color: #35312b;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1a1815;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.253);
+}
+.InputsELogin{
+    background: #486966;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid rgba(0, 0, 0, 0.178) 1px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.774);
+    backdrop-filter: blur(10px);
+    width: 100vh;
+
+    padding: 80px;
+}
+img{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.774);
+}
