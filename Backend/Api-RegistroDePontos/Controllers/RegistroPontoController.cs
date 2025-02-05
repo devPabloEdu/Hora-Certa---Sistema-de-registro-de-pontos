@@ -22,8 +22,6 @@ namespace RegistroDePontosApi.Controllers
             _context = context;
         }
 
-
-
         // GET: api/RegistroPonto
         [HttpGet,Authorize]
         public async Task<ActionResult<IEnumerable<RegistroPonto>>> GetRegistroPonto()

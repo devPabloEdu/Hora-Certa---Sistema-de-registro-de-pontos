@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
-.RegistroBox h1{
-    text-align: center;
-    color: white;
-    font-size: 5em;
-    padding: 30px;
-    font-family: 'Nunito';
+.RegistroBox{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
 }
 .buttonBox{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
+    text-align: center;
 }
 .buttonBox button{
     margin: 60px;
@@ -21,4 +20,38 @@
     font-family: 'Nunito';
     font-size: 1.5em;
     padding: 30px;
+    text-shadow: black 1px 1px 1px;
+}
+.erro{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Nunito';
+    color: black;
+}
+.entrada{
+    background-color: rgb(76, 187, 54);
+}
+.entrada:hover{
+    background-color: rgb(53, 128, 38);
+}
+.almoco{
+    background-color: rgb(55, 157, 204);
+}
+.almoco:hover{
+    background-color: rgb(37, 98, 126);
+}
+.retorno{
+    background-color: rgb(230, 137, 32);
+}
+.retorno:hover{
+    background-color: rgb(146, 88, 23);
+}
+.saida{
+    background-color: rgb(235, 70, 70);
+}
+.saida:hover{
+    background-color: rgb(163, 41, 41);
+}
+body{
+    background-color: whitesmoke;
 }

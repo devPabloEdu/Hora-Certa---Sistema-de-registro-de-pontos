@@ -4,6 +4,9 @@ import RelogioBanner from "../assets/relogio.jpg";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import RegistroPonto from "./RegistroPonto";
 import { useNavigate } from "react-router-dom"; //
+import { IoMdTimer } from "react-icons/io";
+
+
 
 function Login() {
   const [username, setUsername] = useState("");
@@ -40,8 +43,9 @@ function Login() {
       <div className="BackgroundLogin">
         <div className="BoxLogin">
           <div className="InputsELogin">
-            <h2>Bem-vindo usuário!</h2>
-            <p>Faça Login para registrar seu ponto</p>
+            <h2>HORA CERTA <IoMdTimer />
+            </h2>
+            <p>Bem-vindo usuário! </p>
             <div className="InputsBox">
               <input
                 type="text"
