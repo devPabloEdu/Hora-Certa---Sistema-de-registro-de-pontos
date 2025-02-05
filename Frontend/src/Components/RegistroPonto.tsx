@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../Styles/Registroponto.css';
 
 function RegistroPonto() {
   const [funcionarioId, setFuncionarioId] = useState(1); // Substitua com o ID real do funcionário
@@ -87,12 +88,12 @@ function RegistroPonto() {
   }, [funcionarioId]);
 
   return (
-    <div>
-      <h2>Registro de Ponto</h2>
+    <div className="RegistroBox">
+      <h1>REGISTRO DE PONTO</h1>
 
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
-      <div>
+      <div className="buttonBox">
         <button onClick={() => registrarPonto('entrada')}>Registrar Entrada</button>
         <button onClick={() => registrarPonto('almoco')}>Registrar Almoço</button>
         <button onClick={() => registrarPonto('retorno')}>Registrar Retorno do Almoço</button>

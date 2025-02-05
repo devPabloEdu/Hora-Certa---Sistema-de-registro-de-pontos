@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+.RegistroBox h1{
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    padding: 30px;
+    font-family: 'Nunito';
+}
+.buttonBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.buttonBox button{
+    margin: 60px;
+    width: 50%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-size: 1.5em;
+    padding: 30px;
+}
